@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/client")
-@CrossOrigin(origins = "https://appointment-app-frontend-086470168ae5.herokuapp.com")
+@CrossOrigin(origins = "https://security-ms-59cfc31741b3.herokuapp.com")
 public class ClientController {
     @Autowired
     private IClientService iClientService;
